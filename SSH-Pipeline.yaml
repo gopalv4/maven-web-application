@@ -3,9 +3,9 @@ type: ssh
 name: default
 server:
   host: 15.207.116.55
-  user: centos
+  user: gopal
   password:
-    from_secret: ssh_password
+    from_secret: docker_password
 steps:
 - name: build
   commands:
