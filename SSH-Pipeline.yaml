@@ -3,7 +3,8 @@ type: ssh
 name: default
 server:
   host: 15.207.116.55
-  user: gopal
+  user: 
+    from_secret: docker_username
   password:
     from_secret: docker_password
 steps:
