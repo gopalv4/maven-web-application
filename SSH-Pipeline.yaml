@@ -1,5 +1,4 @@
-#Drone2 CI File.
-
+#Drone2 CI File.1
 kind: pipeline
 type: ssh
 name: default
