@@ -17,4 +17,4 @@ steps:
       - curl -fL https://getcli.jfrog.io | sh
       - chmod +x ./jfrog
       - apikey=eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJaSktQZ3laVEx6eWgwRktFQjRUeWlIRWhuWlRSTDZOQXZfZHJxSUhzMjJnIn0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZnIxZ3RwanlwaHQ4MDIwZXA2ZHAwNHcwXC91c2Vyc1wvZ29wYWx2Iiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4iLCJhdWQiOiIqQCoiLCJpc3MiOiJqZmZlQDAwMCIsImV4cCI6MTY3MjMxNzQ4MCwiaWF0IjoxNjQwNzgxNDgwLCJqdGkiOiJkOTRjNmRjMC01NDgyLTQ2MzQtOTUyOS1jODBmNzNhYjY2MDQifQ.FSLZKLCV0qzpzIbjHe3ZknAxoy_TK9jN3iGtSF04u1dYFSUYHCv505fnmIfzsKLGStX9t4daC90JMOWsgw-WX7ofS9HRj60wHhV4FmCors9cxTWZs9kDq1Zm9wXNfNjwsU58JelJJw_mcypW1ei5U_IyZIBW0U5xBKdDCwQVUeF1f1p1EkApADBqaKxF1PvLeaRLGh9OriWGBjxxVeoAfMfg6VFZdtNuwrGiHx5IA1rXKuEAJPQ67QcaAIYh8cZ8g1cpCQVdLERJXnJJSiBF_xLWMLoFr4tsxvdrooXmfoYkssQzHHS8zf39cVAaMVmCVKjRXEnehry-vJrFPtJSFg
-      - ./jfrog rt u --url=https://gopalv.jfrog.io/artifactory/  --access-token=$apikey  usr/target/maven-web-application.war  default-maven-local
+      - ./jfrog rt u --url=https://gopalv.jfrog.io/artifactory/  --access-token=$apikey  target/maven-web-application.war  default-maven-local
