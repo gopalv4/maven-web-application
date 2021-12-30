@@ -1,9 +1,9 @@
-#Drone2 CI File.2
+#Drone2 CI File.
 kind: pipeline
 type: ssh
 name: default
 server:
-  host: 15.207.98.166
+  host: 3.110.105.97
   user: 
     from_secret: docker_username
   password:
