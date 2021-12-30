@@ -10,6 +10,7 @@ server:
 steps:
 - name: build
   commands:
+   - cd maven-web-application
    - /usr/share/maven/mvn clean install
 - name: publish
   commands:
