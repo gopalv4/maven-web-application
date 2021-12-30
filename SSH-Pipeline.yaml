@@ -10,8 +10,7 @@ server:
 steps:
 - name: build
   commands:
-   - cd maven-web-application
-   - /usr/share/maven/mvn clean install
+   - /opt/maven/bin/mvn clean install
 - name: publish
   commands:
       #Download the JFrog CLI 
