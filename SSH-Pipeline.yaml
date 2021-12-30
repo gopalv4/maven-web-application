@@ -10,7 +10,7 @@ server:
 steps:
 - name: build
   commands:
-  - cd myapp
+  - /root/maven-web-application
   - /opt/maven/bin/mvn clean install
 - name: publish
   commands:
