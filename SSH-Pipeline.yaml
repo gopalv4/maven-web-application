@@ -11,7 +11,7 @@ steps:
 - name: build
   commands:
   - cd maven-web-application
-  - mvn clean install
+  - /root/maven-web-application/mvn clean install
 - name: publish
   commands:
       #Download the JFrog CLI 
