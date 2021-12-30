@@ -3,9 +3,8 @@ kind: pipeline
 type: ssh
 name: default
 server:
-  host: 3.110.105.97
-  user: 
-    from_secret: docker_username
+  host: 20.124.97.233
+  user: drone
   password:
     from_secret: docker_password
 steps:
